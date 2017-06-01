@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="info.androidhive.materialtabs.CustomViewActivity">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:background="@android:color/holo_green_dark"
+        android:layout_width="fill_parent"
+        android:layout_height="100dp">
+
+
+        <TableRow
+            android:layout_marginTop="20dp"
+            android:layout_height="match_parent"
+            android:layout_width="match_parent">
+
+            <ImageView
+
+                android:layout_marginLeft="5dp"
+                android:gravity="center"
+                android:src="@drawable/ic_tab_call"
+                android:layout_width="30dp"
+                android:layout_height="30dp" />
+       <TextView
+           android:padding="6dp"
+          android:layout_weight="1"
+           android:text="Contacts"
+           android:layout_height="wrap_content"
+           android:layout_width="0dp"  >
+
+
+           </TextView>
+
+            <TextView
+                android:padding="6dp"
+                android:layout_weight="3"
+                android:text="Contacts"
+                android:layout_height="wrap_content"
+                android:layout_width="0dp"  >
+                </TextView>
+
+        </TableRow>
+
+
+
+    </LinearLayout>
+
+<FrameLayout
+    android:layout_margin="50dp"
+    android:background="@color/sky_blue"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+
+<RelativeLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+
+   <Button
+       android:textColor="@color/white"
+       android:text="ORDER NOW"
+       android:background="@android:color/holo_red_dark"
+     android:layout_alignParentBottom="true"
+       android:layout_width="match_parent"
+       android:layout_height="40dp" />
+</RelativeLayout>
+</FrameLayout>
+
+
+</RelativeLayout>
